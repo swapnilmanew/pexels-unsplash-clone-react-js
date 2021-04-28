@@ -45,20 +45,20 @@ export default function App() {
     <>
       <div className="container-fluid header">
         <div className="col-12 col-sm-10 col-md-10 m-auto">
-          <h1 className="pt-5 text-center font-weight-bold display-5">
+          <h1 className="pt-5 text-center font-weight-bold display-4">
             The best free stock photos & videos shared by talented creators.
           </h1>
           <div className="row mt-5">
-            <div className="col-11 col-sm-6 col-md-8 m-auto d-flex justify-content-space-between">
+            <div className="col-11 col-sm-6 col-md-7 m-auto d-flex justify-content-space-between">
               <input
                 type="text"
                 onChange={inputChange}
-                className="form-control py-4"
+                className="form-control py-4 mb-5"
                 value={query}
                 placeholder="Search Images"
               />
 
-              <button onClick={onbtnclick} className="btn btn-primary">
+              <button onClick={onbtnclick} className=" mb-5 btn btn-primary">
                 Search
               </button>
             </div>

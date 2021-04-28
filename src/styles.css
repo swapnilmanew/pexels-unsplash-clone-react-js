@@ -2,3 +2,7 @@
   font-family: sans-serif;
   text-align: center;
 }
+.btn,
+.form-control {
+  border-radius: 0px !important;
+}
